@@ -21,10 +21,10 @@ print("3.CREDITS");
 selection=int(input("ENTER CHOICE :"))
 
 if selection ==1:
-  os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent>
+  os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh");
 
 if selection ==2:
-  os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent>
+  os.system("pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Kali/kali.sh && bash kali.sh");
 
 if selection ==3:
    print("CODED BY ANUBHAB , MAINTEND BY ANUBHAB , REPOSTIORY BY ANLINUX ,PATCH BY ANUBHAB, primarily maintend by anubhab");
