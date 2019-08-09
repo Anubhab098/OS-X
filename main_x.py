@@ -10,7 +10,7 @@ import subprocess
 ### MAIN MENU #####
 ###################
 os.system("clear");
-os.system("figlet OS-X");
+os.system("toilet --gay OS-X UPGRADED");
 print("1.OS-UBUNTU");
 print("2.OS-KALI");
 print("3.CREDITS");
